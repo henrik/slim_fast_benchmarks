@@ -27,6 +27,8 @@ defmodule SlimFastBenchmarks.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:slim_fast, git: "https://github.com/doomspork/slim_fast.git"},
+    ]
   end
 end
