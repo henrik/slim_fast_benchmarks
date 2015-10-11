@@ -1,0 +1,2 @@
+defmodule SlimFastBenchmarks do
+end
