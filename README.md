@@ -2,10 +2,13 @@
 
 Benchmarking [slim_fast](https://github.com/doomspork/slim_fast).
 
+Uses [benchfella](https://github.com/alco/benchfella).
+
+
 ## Usage
 
     mix deps.get
-    mix run benchmark.exs
+    mix  # or: mix bench
 
 
 ## Also see

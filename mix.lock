@@ -1,1 +1,2 @@
-%{"slim_fast": {:git, "https://github.com/doomspork/slim_fast.git", "659148101428ba3bd640c7d0ed690ecf5f012307", []}}
+%{"benchfella": {:hex, :benchfella, "0.2.1"},
+  "slim_fast": {:git, "https://github.com/doomspork/slim_fast.git", "659148101428ba3bd640c7d0ed690ecf5f012307", []}}

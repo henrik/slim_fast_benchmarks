@@ -5,6 +5,7 @@ defmodule SlimFastBenchmarks.Mixfile do
     [app: :slim_fast_benchmarks,
      version: "0.0.1",
      elixir: "~> 1.1",
+     default_task: "bench",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps]
@@ -29,6 +30,7 @@ defmodule SlimFastBenchmarks.Mixfile do
   defp deps do
     [
       {:slim_fast, git: "https://github.com/doomspork/slim_fast.git"},
+      {:benchfella, "> 0.0.0"},
     ]
   end
 end
